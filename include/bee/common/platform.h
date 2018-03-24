@@ -29,6 +29,9 @@
 #	elif defined(__ANDROID__)
 #		define	BEE_PLATFORM_ANDROID	(BEE_OS_SPEC_POSIX | 0x5)
 #		define	BEE_TARGET_PLATFORM	BEE_PLATFORM_ANDROID
+#	elif defined(_POSIX_C_SOURCE)
+#		define	BEE_PLATFORM_POSIX_OTHER	(BEE_OS_SPEC_POSIX | 0x10)
+#		define	BEE_TARGET_PLATFORM	BEE_PLATFORM_POSIX_OTHER
 #	else // BEE_PLATFORM_XXXX
 #		error	"This os is not supported"
 #	endif // BEE_PLATFORM_XXXX
