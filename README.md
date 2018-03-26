@@ -12,6 +12,7 @@ Bee
     |---NodeStack (bee/data_structure/NodeStack.h)
     |---List (bee/data_structure/List.h)
     |---SinglyList (bee/data_structure/SinglyList.h)
+    |---Pool (bee/data_structure/Pool.h)
     |+--HalfThreadSafe
         |---NodeStack (bee/data_structure/half_thread_safe/htsNodeStack.h)
     |+--ThreadSafe
